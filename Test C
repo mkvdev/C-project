@@ -1,0 +1,46 @@
+/*
+Author: Vali
+Purpose: This program prints out my name to the screen
+Date:
+
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    //this code is displaying my name
+    printf("Hi, My name is Valentin");
+    return 0;
+}
+
+
+
+-------------- Build: Debug in SampleApp (compiler: GNU GCC Compiler)---------------
+
+gcc.exe -Wall -g  -c "C:\Users\Modeus\OneDrive\Desktop\C code\SampleApp\Test.c" -o obj\Debug\Test.o
+gcc.exe  -o bin\Debug\SampleApp.exe obj\Debug\Test.o   
+Output file is bin\Debug\SampleApp.exe with size 53.43 KB
+Process terminated with status 0 (0 minute(s), 0 second(s))
+0 error(s), 0 warning(s) (0 minute(s), 0 second(s))
+ 
+--------------------------------------------------------------------------------------
+
+#include <stdio.h>
+
+int main()
+{
+    char str[100];
+    int i;
+
+    printf("Enter a value :");
+
+    scanf("%d %s", &i, str);
+
+    printf("\nYou entered: %d::::%s\n", i, str);
+
+    return 0;
+}
+
+--------------------------------------------------------------------------------------------
+
